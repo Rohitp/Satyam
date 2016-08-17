@@ -9,7 +9,7 @@ include("db_func.php");
 $id = $_REQUEST['id'];
 
 
-$api_key = "74f2525774f1156eb39d747e4a3e0251";
+$api_key = "";
 
 $search_url = "http://api.themoviedb.org/3/movie/$id/similar?api_key=$api_key&id=$id";
 $base_url = "http://image.tmdb.org/t/p/w500";

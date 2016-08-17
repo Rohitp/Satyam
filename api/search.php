@@ -6,7 +6,7 @@ include("db_func.php");
 
 $q = $_REQUEST['query'];
 
-$api_key = "74f2525774f1156eb39d747e4a3e0251";
+$api_key = "";
 
 $search_url = "http://api.themoviedb.org/3/search/movie?api_key=$api_key&query=$q";
 
