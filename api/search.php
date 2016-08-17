@@ -5,7 +5,7 @@ include("dump.php");
 include("db_func.php");
 include("../keys.php");
 
-$q = $_REQUEST['query'];
+$q = urlencode($_REQUEST['query']);
 
 // $api_key = "";
 
