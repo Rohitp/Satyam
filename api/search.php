@@ -3,10 +3,11 @@
 header('Content-Type: application/json');
 include("dump.php");
 include("db_func.php");
+include("../keys.php");
 
 $q = $_REQUEST['query'];
 
-$api_key = "";
+// $api_key = "";
 
 $search_url = "http://api.themoviedb.org/3/search/movie?api_key=$api_key&query=$q";
 

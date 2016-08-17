@@ -3,12 +3,13 @@
 header('Content-Type: application/json');
 include("dump.php");
 include("db_func.php");
+include("../keys.php");
 
 // mO-62VxpLe0C hitchhikers
 //238 the godfather
 $id = $_REQUEST['id'];
 
-$api_key = "";
+// $api_key = "";
 
 $search_url = "http://api.themoviedb.org/3/movie/$id?api_key=$api_key&id=$id";
 $base_url = "http://image.tmdb.org/t/p/w500";
