@@ -1,0 +1,199 @@
+html {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  color: #81b900;
+}
+
+/* dndTree */
+
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill: #fff;
+  stroke: black;
+  stroke-width: 2px;
+}
+
+.node text {
+  font-size:15px;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+
+.templink {
+  fill: none;
+  stroke: red;
+  stroke-width: 3px;
+}
+
+.overlay{
+  background-color:#FFFFFF;
+}
+
+/* autocomplete */
+
+.ui-autocomplete {
+  max-height: 400px;
+  overflow-y: auto;
+  /* prevent horizontal scrollbar */
+  overflow-x: hidden;
+}
+
+.autocomplete-item {
+  height: 60px;
+}
+
+.artist-icon-container {
+  padding-top: 3px;
+}
+
+.artist-icon {
+  vertical-align: middle;
+  float: left;
+  height: 54px;
+  width: 54px;
+  border-radius: 27px;
+  -webkit-border-radius: 27px;
+  -moz-border-radius: 27px;
+}
+
+.artist-label {
+  padding-left: 60px;
+  line-height: 60px;
+}
+
+/* navbar */
+
+#navbarcontainer {
+  position:absolute;
+  left:0px;
+  right: 370px;
+}
+
+.menu-items {
+  padding-right: 20px;
+}
+
+/* Left Container */
+
+.main-container {
+  overflow: hidden;
+  height: auto;
+}
+
+.left {
+  float: none;
+  width: auto;
+  overflow: hidden;
+}
+
+#search {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+#search-artist {
+  padding-right: 2px;
+}
+
+#search-genre {
+  padding-left: 2px;
+}
+
+
+/* Right Pange */
+
+#rightpane {
+  font-size: 15px !important;
+  float: right;
+  top: 0px;
+  right:0px;
+  width: 350px;
+  height: 100%;
+  position: relative;
+  padding: 11px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.slider {
+  width: 200px;
+}
+
+#repeat-artists-container {
+  clear: both;
+}
+
+#checkbox-div {
+  float: right;
+  width: 88px;
+}
+
+#range-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 35px;
+  clear:both;
+}
+
+.range-desc {
+  float: left;
+  width: 180px;
+}
+
+#range-indicator {
+  padding-top: 3px;
+  text-align: center;
+}
+
+.range-bar {
+  padding-top: 2px;
+  float: right;
+  width: 130px;
+}
+
+#bigoraphyDiv {
+  text-align: justify;
+}
+
+.now-playing {
+  padding-left: 37px;
+}
+
+.now-playing::before {
+  display: inlne-block;
+}
+
+.now-playing.active {
+  background: url('../img/spotify.png') no-repeat left top;
+  background-size: 67px;
+  background-position-x: 0px;
+}
+
+#popularTracks {
+  list-style-position: inside;
+  text-indent: -12px;
+  padding-left: 0px;
+}
+
+#infobox a, #infobox a:link, #infobox a:visited {
+  color: #222327;
+}
+
+#infobox a:hover {
+  color: #6FB100;
+}
+
